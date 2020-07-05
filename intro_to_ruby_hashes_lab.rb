@@ -3,7 +3,7 @@ def base_hash
   return myHash
 end
 
-def monopoly_with_second_tier
+def monopoly_with_second_tier(myHash)
   myHash[:railroads] = {:pieces => 4, :rent_in_dollars => {}, :names => {}}
 end
 
